@@ -1,4 +1,4 @@
-function isValidPass(password, username) {
+function isValidPassword(password, username) {
   //check if password is 8 charactes
   if (password.length < 8) {
     return false;
